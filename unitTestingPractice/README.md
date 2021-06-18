@@ -2,8 +2,7 @@
 
 # Directions
 
-Clone the starter from [Github].
-
+Clone the starter from here [starter](https://github.com/appacademy-starters 'unit testing practice'). 
 Run `npm install` to download dependencies.
 
 1. In the file `funcs.js`, you will find three skeleton functions. Your job is
@@ -16,8 +15,6 @@ Run `mocha` to confirm your code is written correctly.
 
 ### Helpful links
 
-[Mocha Documentation](https://mochajs.org/)
-[Chai Documentation](https://www.chaijs.com/)
+[Mocha Documentation](https://mochajs.org/)  
+[Chai Documentation](https://www.chaijs.com/)  
 [MDN Documentation](https://developer.mozilla.org/en-US/)
-
-[Github]: https://github.com/appacademy/practice-for-week-04-unit-test-practice
