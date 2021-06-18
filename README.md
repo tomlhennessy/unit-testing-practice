@@ -20,4 +20,4 @@ Run `mocha` to confirm your code is written correctly.
 [Chai Documentation](https://www.chaijs.com/)
 [MDN Documentation](https://developer.mozilla.org/en-US/)
 
-[Github]: https://github.com/appacademy/practice-for-week-04-unit-test-practice
+[Github]: https://github.com/appacademy/practice-for-week-04-unit-testing-practice
