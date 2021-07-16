@@ -1,6 +1,7 @@
 const chai = require("chai");
 const expect = chai.expect;
 const { isFive, isOdd, myRange } = require("../funcs");
+
 describe("isFive(num)", () => {
   it("should return true if the num is 5 otherwise false", () => {
     const num1 = 5;
@@ -19,6 +20,7 @@ describe("isFive(num)", () => {
     expect(actual3).to.be.false;
   });
 });
+
 describe("isOdd(number)", () => {
   it("should return true if number is odd", () => {
     const num1 = 3;
@@ -33,6 +35,7 @@ describe("isOdd(number)", () => {
     expect(actual2).to.be.true;
     expect(actual3).to.be.true;
   });
+
   it("should return false if the num is even", () => {
     const num1 = 4;
     const num2 = 2952;
@@ -46,6 +49,7 @@ describe("isOdd(number)", () => {
     expect(actual2).to.be.false;
     expect(actual3).to.be.false;
   });
+
   it("should throw an error if num is not type of Number", () => {
     const string = "i am a string";
     const object = { i: "am", an: "object" };
@@ -56,6 +60,7 @@ describe("isOdd(number)", () => {
     expect(() => isOdd(array)).to.throw(Error);
   });
 });
+
 describe("myRange(min, max, step)", () => {
   context("if step is not provided", () => {
     it("should return the correct array with default value step=1", () => {
@@ -71,6 +76,7 @@ describe("myRange(min, max, step)", () => {
       expect(actual2).to.eql(expected2);
     });
   });
+
   context("if step is provided", () => {
     it("should return the correct array", () => {
       const [min1, max1, step1] = [0, 5, 1];
@@ -88,17 +94,5 @@ describe("myRange(min, max, step)", () => {
       expect(actual2).to.eql(expected2);
       expect(actual3).to.eql(expected3);
     });
-  });
-  it("should throw an error if num is not type of Number", () => {
-    const string = "i am a string";
-    const object = { i: "am", an: "object" };
-    const array = ["i", "am", "an", "array"];
-
-    const callback1 = () => isOdd(string);
-    const callback2 = () => isOdd(object);
-    const callback3 = () => isOdd(array);
-    expect(callback1).to.throw(Error);
-    expect(callback2).to.throw(Error);
-    expect(callback3).to.throw(Error);
   });
 });

@@ -26,6 +26,7 @@ class Word {
     }
     return newWord;
   }
+
   pigLatin() {
     let vowels = "aeiouAEIOU";
 
