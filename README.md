@@ -1,10 +1,15 @@
-# Unit Testing Practice
+# Practice: Unit Testing with Mocha and Chai
 
-## Directions
+In this practice, you will create unit tests with the `mocha` testing library
+and the `chai` assertion library.
 
-Clone the practice from the [starter].
+## Set up
+
+Clone the starter from the **Download** link at the bottom of this page.
 
 Run `npm install` to download dependencies.
+
+## Instructions
 
 1. In the file **funcs.js**, you will find three skeleton functions. Your job is
    to complete those functions according to the specs found in
@@ -20,5 +25,3 @@ Run `npm test` to confirm your code is written correctly.
 [Mocha Documentation](https://mochajs.org/)
 [Chai Documentation](https://www.chaijs.com/)
 [MDN Documentation](https://developer.mozilla.org/en-US/)
-
-[starter]: https://github.com/appacademy/practice-for-week-04-unit-testing-practice
