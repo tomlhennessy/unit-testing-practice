@@ -1,13 +1,19 @@
 function isFive(num) {
-  // Your code here
+  return num === 5;
 }
 
 function isOdd(number) {
-  // Your code here
+  if (typeof number !== 'number') throw new Error('Input must be a number');
 }
 
 function myRange(min, max, step = 1) {
-  // Your code here
+  const rangeArray = [];
+  if (step > 0) {
+    for (let i = min; i <= max; i += step) {
+      rangeArray.push(i);
+    }
+  }
+  return rangeArray;
 }
 
 
